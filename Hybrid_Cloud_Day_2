@@ -1,0 +1,23 @@
+- Cloud Service Provider ( AWS, Azure, GCP ) resources are used by client or user But in cloud computing world we called them tenant.
+- Cloud Service Provider have broad range of resources and in multiple variants which is used by Multiple users or tenants are also known as Multi-Tenancy.
+- Namespace Provides Isolation.
+- Combination of RAM and CPU is known as Compute Unit.
+- Upfront means you have to pay complete amount for that resource you are using. For example :- From a service provider you have purchased a public IP Address for a year then you have to pay complete amount for that one year. That is called upfront.
+- In AWS there is a service called Elastic Compute Cloud (EC2) which is compute as a service.
+- Nova is a service in opentstack that provide you compute as a service.
+- Three types of storage we have :-
+   - Object	- File	   - Block
+- Block Storage is like Pendrive and Hardisk in which we can store data parmenently or persistently.
+- In Cloud Computing there is STAAS which is Storage As A Service. In AWS there is a service called Elastic Block Store (EBS) which is STAAS. And In Openstack there is a service called Cinder which is STAAS.
+- When you login to AWS the first page comes up is called Management Console.
+- Virtual Private Cloud (VPC) is  a service in AWS which provides Network as a Service which is an isolated network for a tenant or a user from other tenant or user in same data center. And in Openstack Network as a Service is provided by Neutron service.
+- We can create multiple VPC's in same data center for a single tenent.
+- When you create account in aws a default VPC is created.
+- Data Center are known as Availability Zone.
+- Multiple Availability Zone are together called Region.
+- One subnet can span in a single Availability Zone. Single Subnet can't span Multiple Availability Zones.
+- One Availability Zone can have multiple Subnets.
+- In Cloud Computing world Operating System running in AWS is called Instance.
+- Service that provide Network Interface in AWS is Elastic Network Interface (ENI).
+- Operating System image in AWS is called Amazon Machine Image (AMI). In private cloud they don't provide us OS images. We keep our images there. And In Openstack we keep our operating system images that service is called Glance.
+- For Authentication To login into the EC2 instance we need to create a key pair and we have to generate it from EC2 dashboard.
